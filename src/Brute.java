@@ -1,3 +1,14 @@
+/* Author: Dale Salcedo
+ * Date: 4/16/13
+ * Dependencies: stdlib.jar
+ * 
+ * Purpose: Examines 4 points at a time and checks whether they all lie on the 
+ * same line segment, printing out any such line segments to standard output 
+ * and drawing them using standard drawing. To determine whether the 4 points p,
+ * q, r, and s are collinear, this program checks whether the slopes between p 
+ * and q, between p and r, and between p and s are all equal.
+ */
+
 import java.util.Arrays;
 
 public class Brute {
